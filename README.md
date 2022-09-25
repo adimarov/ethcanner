@@ -2,7 +2,7 @@
 Etherium Scanner
 
 This application reads 10 latest Blocks of ETH transactions from https://eth-rpc.gateway.pokt.network/.
-Then it parses these transactions and generates the output JSON in the data\ folder file with the following interface:
+Then it parses these transactions and generates the output JSON file in the data\ folder with the following interface:
 
 ```
 export interface TokenChange {
@@ -26,9 +26,9 @@ export interface BalanceChangeEvent {
 }
 ```
 
-Records are placed in the log file in the data folder. Each run is placed into the individual text file.
+Each run will generate a separate file wiht a different name.
 
-This is a nodejs project. In order to run it, clone the repo, then run 
+This is a nodejs project. In order to run it, clone the repo, then:
 ```
 npm install
 ```
