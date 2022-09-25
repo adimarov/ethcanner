@@ -1,0 +1,19 @@
+{
+  "name": "ethcanner",
+  "version": "1.0.0",
+  "description": "Etherium Scanner",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ethereumjs-client": "^0.0.6",
+    "ethers": "^5.7.1",
+    "hex2dec": "^1.1.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adimarov@gmail.com",
+  "license": "ISC"
+}
